@@ -22,23 +22,23 @@ A Node.js application that uses OpenAI and OMDB API to search for movies based o
 git clone https://github.com/ReeceDunne/gpt-movie-search.git
 cd movie-details-search
 
-### 2. Install dependencies
+2. Install dependencies
 npm install
 
-### 3. Set up environment variables:
+3. Set up environment variables:
 Create a .env file in the root directory and add your API keys:
 OPEN_AI_API_KEY=your_openai_api_key
 OMDB_API_KEY=your_omdb_api_key
 
-### 4. Run the application:
+4. Run the application:
 node index.js
 
-### 5. Interact with the CLI:
+5. Interact with the CLI:
 The app will prompt you to enter how many movies you'd like to search (up to 10).
 Then, you'll enter a description for the movie search (e.g., "feature a character walking away from an explosion").
 The app will fetch and display the movie titles and their details.
 
-## Example:
+Example:
 How many movies would you like to return (max 10): 5
 Please enter the description of the movies you want (e.g., 'feature a character walking away from an explosion'): feature a character walking away from an explosion
 
